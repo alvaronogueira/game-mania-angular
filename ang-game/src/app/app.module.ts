@@ -11,12 +11,16 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './views/home/home.component';
+import { CarouselComponent } from './views/carousel/carousel.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
