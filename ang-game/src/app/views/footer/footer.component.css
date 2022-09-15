@@ -1,0 +1,123 @@
+a, ul, li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.line a:hover{
+    background: black;
+    border-radius: 5px;
+    height: 23px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-image: linear-gradient(#218EF2, black);    
+}
+
+p{
+    display: inline-block;
+    color: white;
+}
+
+.footer .line{
+    display: flex;
+    font-size: 12pt;
+    height: 30px;
+    width: 400px;
+    vertical-align: middle;
+}
+.footer .list{
+    padding-left: 10px;
+}
+
+
+
+
+
+/*PAGAMENTO E CARTÕES*/
+.footer .icon{
+    padding-left: 40px;
+    display: flex;
+}
+.icon .cards{
+    width: 350px;
+    padding: 80px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.pag{
+    margin-top: 2px;
+    font-size: 12pt;
+}
+
+.icon .amex{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.icon .master{
+    height: 45px;
+    width: 40px;
+    vertical-align: middle; 
+    padding-left: 5px;
+}
+.icon .paypal{
+    height: 30px;
+    width: 45px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.icon .pix{
+    height: 30px;
+    width: 40px;
+    vertical-align: middle;
+}
+.icon .visa{
+    height: 30px;
+    width: 40px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+
+
+
+
+/*REDES SOCIAIS*/
+.footer .network{
+    display: flex;
+    width: 150px;
+    font-size: 12pt;
+    padding: 120px;
+    justify-content: space-between;
+}
+.network .social{
+    color: chartreuse;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.network .social{
+    width: 100px;
+}
+
+.network img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.network .logos{
+    margin-top: 5px;
+}
+
+.network .logo-face{
+    height: 35px;
+}
+
