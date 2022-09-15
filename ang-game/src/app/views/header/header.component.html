@@ -1,1 +1,26 @@
-<p>header works!</p>
+<mat-toolbar class="header mat-elevation-z5">
+    <span>
+        <a href="">
+            <img class="joy" src="assets/img/logo1.png" alt="logo-joy">
+        </a>
+    </span>
+    <span class="title">
+        <a href="">
+            <img class="logoo" src="assets/img/logoo.png" alt="">
+        </a>
+    </span>
+    <span>
+        <button class="box" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon class="menu-icon">menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item><mat-icon>home</mat-icon>Home</button>
+          <button mat-menu-item><mat-icon>all_inclusive</mat-icon>Acessórios</button>
+          <button mat-menu-item><mat-icon>person</mat-icon>Camisetas</button>
+          <button mat-menu-item><mat-icon>email</mat-icon>E-mail</button>
+          <button mat-menu-item><mat-icon>games</mat-icon>Novidades</button>
+          <button mat-menu-item><mat-icon>perm_identity</mat-icon>Login/Cadastro</button>
+          <button mat-menu-item><mat-icon>call</mat-icon>Telefone</button>
+        </mat-menu>
+    </span>
+</mat-toolbar>

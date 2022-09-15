@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    align-items: center;  
+    background-image: linear-gradient(#218EF2, black);
+}
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header .joy{
+    max-height: 60px;
+}
+
+.header .title{
+    padding-left: 350px;
+}
+.header .box{
+    display: flex;
+    margin-left: 440px;
+    padding: 10px;
+    color: red;
+}
+.box{
+    border-radius: 10px;
+    height: 50px;
+}
