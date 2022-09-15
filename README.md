@@ -1,1 +1,1 @@
-# game-mania-angular
+# Created with Angular
