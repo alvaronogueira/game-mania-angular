@@ -100,7 +100,7 @@ p{
 .network .social{
     color: chartreuse;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 180px;
 }
 .network .social{
     width: 100px;
@@ -114,7 +114,7 @@ p{
 }
 
 .network .logos{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .network .logo-face{
