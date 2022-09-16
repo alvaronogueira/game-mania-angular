@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './views/home/home.component';
 import { CarouselComponent } from './views/carousel/carousel.component';
 import { FooterComponent } from './views/footer/footer.component';
+import { TempCarouselComponent } from './views/temp-carousel/temp-carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './views/footer/footer.component';
     HeaderComponent,
     HomeComponent,
     CarouselComponent,
-    FooterComponent
+    FooterComponent,
+    TempCarouselComponent
   ],
   imports: [
     BrowserModule,
