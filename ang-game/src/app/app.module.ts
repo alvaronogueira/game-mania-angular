@@ -14,6 +14,9 @@ import { HomeComponent } from './views/home/home.component';
 import { CarouselComponent } from './views/carousel/carousel.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { TempCarouselComponent } from './views/temp-carousel/temp-carousel.component';
+import { Index1Component } from './views/index1/index1.component';
+import { Index2Component } from './views/index2/index2.component';
+import { Index3Component } from './views/index3/index3.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { TempCarouselComponent } from './views/temp-carousel/temp-carousel.compo
     HomeComponent,
     CarouselComponent,
     FooterComponent,
-    TempCarouselComponent
+    TempCarouselComponent,
+    Index1Component,
+    Index2Component,
+    Index3Component
   ],
   imports: [
     BrowserModule,
