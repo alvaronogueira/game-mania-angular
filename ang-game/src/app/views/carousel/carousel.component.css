@@ -10,6 +10,9 @@ ngb-carousel {
     width: inherit;
     height: inherit;
 }
+ngb-carousel a{
+    text-decoration: none;
+}
 .carousel-inner {
     overflow: visible;
 }
