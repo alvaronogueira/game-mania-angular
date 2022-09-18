@@ -18,6 +18,9 @@ import { Index1Component } from './views/index1/index1.component';
 import { Index2Component } from './views/index2/index2.component';
 import { Index3Component } from './views/index3/index3.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CardsComponent } from './views/cards/cards.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     TempCarouselComponent,
     Index1Component,
     Index2Component,
-    Index3Component
+    Index3Component,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +44,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NgbModule,
     MatIconModule,
     FlexLayoutModule,
+    MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,19 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: #1D0606 ;
+}
+
+.example-card {
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 300px;
+    border: 1px solid black;
+  }
