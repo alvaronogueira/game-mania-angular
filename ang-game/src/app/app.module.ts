@@ -17,6 +17,7 @@ import { TempCarouselComponent } from './views/temp-carousel/temp-carousel.compo
 import { Index1Component } from './views/index1/index1.component';
 import { Index2Component } from './views/index2/index2.component';
 import { Index3Component } from './views/index3/index3.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { Index3Component } from './views/index3/index3.component';
     MatMenuModule,
     NgbModule,
     MatIconModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
