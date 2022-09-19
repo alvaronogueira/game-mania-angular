@@ -6,14 +6,30 @@ body, ul, li, p{
     font-family: sans-serif;
 }
 h1{
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     color: white;
-    background-color: #1D0606 ;
+    background-color: #1D0606;
 }
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+ /* Column Gap */
+  .card > *:not(:last-child) {
+    margin-right: 5%;
+  }
 
 .example-card {
     margin: 0 auto;
     margin-top: 5px;
     max-width: 300px;
     border: 1px solid black;
-  }
+}
