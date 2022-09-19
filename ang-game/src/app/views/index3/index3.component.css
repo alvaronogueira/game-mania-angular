@@ -1,0 +1,11 @@
+.login, .form-row, .form-group, .inputEmail{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cadastro{
+
+    margin-top: 50px;
+}
