@@ -21,6 +21,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { CardsComponent } from './views/cards/cards.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { MatButtonModule } from '@angular/material/button';
     FlexLayoutModule,
     MatCardModule,
     MatButtonModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

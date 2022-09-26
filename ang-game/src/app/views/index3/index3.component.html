@@ -1,63 +1,119 @@
-<!--LOGIN-->
-<form class="login">
-    <h1>L O G I N</h1>
-    <div class="form-row">
-        <div class="form-group col-md-3">
-          <label for="inputEmail4">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-        </div>
-        <div class="form-group col-md-3">
-          <label for="inputPassword4">Senha</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+<div class="container-fluid ps-md-0">
+  <div class="row g-0">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"><img src="assets/img/login.png" alt=""></div>
+    <div class="col-md-8 col-lg-6">
+      <div class="login d-flex align-items-center py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+              <h1 class="login-heading mb-4">LOGIN</h1>
+
+              <!-- Sign In Form -->
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="form-floating mb-3">
+                  <input style="position: inherit;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }"  id="inputEmail4">
+                  <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                    <div *ngIf="f.email.errors.required">Email é requerido</div>
+                    <div *ngIf="f.email.errors.email">Email deve ser um  email válido</div>
+                 </div>
+                  <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input style="position: relative;" type="password" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password"[ngClass]="{ 'is-invalid': submitted && f.password.errors }" id="inputPassword4">
+                  <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                    <div *ngIf="f.password.errors.required">Senha is requerido</div>
+                 </div>
+                  <label for="floatingPassword">Senha</label>
+                </div>
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
+                  <label class="form-check-label" for="rememberPasswordCheck">
+                    Lembrar senha
+                  </label>
+                </div>
+
+                <div class="d-grid">
+                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Entrar</button>
+                  <div class="text-center">
+                    <a class="small" href="#">Esqueceu senha?</a>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
         </div>
       </div>
-</form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 <!--CADASTRO-->
-<form class="cadastro">
-    <h1 class="login">C A D A S T R O</h1>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Senha</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+<div class="container-fluid ps-md-0">
+  <div class="row g-0">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"><img src="assets/img/login.png" alt=""></div>
+    <div class="col-md-8 col-lg-6">
+      <div class="login d-flex align-items-center py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+              <h1 class="login-heading mb-4">CADASTRO</h1>
+
+              <!-- Sign In Form -->
+              <!-- CADASTRAR E-MAIL -->
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }"  id="inputEmail4">
+                  <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                    <div *ngIf="f.email.errors.required">Email é requerido</div>
+                    <div *ngIf="f.email.errors.email">Email deve ser um  email válido</div>
+                 </div>
+                  <label for="floatingInput">Email</label>
+                </div>
+
+                <!-- CADASTRAR SENHA -->
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password"[ngClass]="{ 'is-invalid': submitted && f.password.errors }" id="inputPassword4">
+                  <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                    <div *ngIf="f.password.errors.required">Password is required</div>
+                 </div>
+                  <label for="floatingPassword">Senha</label>
+                </div>
+                <!--CADASTRAR ENDEREÇO-->
+                <div class="form-floating mb-3">
+                  <input type="endereco" class="form-control" id="floatingEndereco" placeholder="endereco" formControlName="endereco"[ngClass]="{ 'is-invalid': submitted && f.endereco.errors }" id="inputEndereco4">
+                  <div *ngIf="submitted && f.endereco.errors" class="invalid-feedback">
+                    <div *ngIf="f.endereco.errors.required">Endereço é requerido</div>
+                 </div>
+                  <label for="floatingEndereco">Endereço</label>
+                </div>
+                <!--CADASTRAR CEP-->
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password"[ngClass]="{ 'is-invalid': submitted && f.password.errors }" id="inputPassword4">
+                  <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                    <div *ngIf="f.password.errors.required">CEP é requerido</div>
+                 </div>
+                  <label for="floatingPassword">CEP</label>
+                </div>
+
+                <div class="d-grid">
+                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">CADASTRAR</button>
+                  <div class="text-center">
+                    <a class="small" href="#">Palavras-chave</a>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="form-group">
-      <label for="inputAddress">Endereço</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-group">
-      <label for="inputAddress2">Endereço 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputCity">Cidade</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="form-group col-md-4">
-        <label for="inputState">Estado</label>
-        <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="form-group col-md-2">
-        <label for="inputZip">CEP</label>
-        <input type="text" class="form-control" id="inputZip">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
+  </div>
+</div>

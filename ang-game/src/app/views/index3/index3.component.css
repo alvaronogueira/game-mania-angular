@@ -1,11 +1,22 @@
-.login, .form-row, .form-group, .inputEmail{
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 50px;
+.login {
+    min-height: 100vh;
 }
 
-.cadastro{
 
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+    width: 40%;
     margin-top: 50px;
+}
+  
+.login-heading {
+    font-weight: 300;
+}
+  
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
 }
