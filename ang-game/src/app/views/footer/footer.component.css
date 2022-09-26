@@ -9,7 +9,8 @@ a, ul, li{
 .line a:hover{
     background: black;
     border-radius: 5px;
-    height: 23px;
+    height: 30px;
+    vertical-align: middle;
 }
 
 .footer{
