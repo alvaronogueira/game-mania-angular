@@ -1,20 +1,18 @@
-ngb-carousel {
+ngb-carousel{
     max-width: 90%;
     margin: 30px auto;
-    position: relative;
 }
 .carousel{
-    margin-top: 80px;
+margin-top: 70px;
 }
+
 ngb-carousel img {
     width: 100%;
     outline: none;
-    position: relative;
 }
 ngb-carousel {
     width: inherit;
     height: inherit;
-    position: relative;
 }
 ngb-carousel a{
     text-decoration: none;
@@ -28,24 +26,19 @@ ngb-carousel a{
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0.5s;
     z-index: -1;
-    position: relative;
 }
 .carousel-item.active{
     opacity: 1;
     visibility: visible;
     z-index: 10;
-    position: relative;
 }
 .carousel-control-prev {
-    z-index: 20;
-    position: relative;
+     z-index: 20;
 }
 
 .carousel-control-next {
-    z-index: 20;
-    position: relative;
+     z-index: 20;
 }
 .carousel-indicators{
     z-index: 20;
-    position: relative;
 }
