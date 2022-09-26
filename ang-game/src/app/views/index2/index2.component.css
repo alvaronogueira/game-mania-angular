@@ -14,14 +14,15 @@ h1{
 }
 
 .card{
-    display: flex;
+    position: inherit;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;    
 }
+
+
  /* Column Gap */
   .card > *:not(:last-child) {
     margin-right: 5%;
@@ -31,5 +32,7 @@ h1{
     margin: 0 auto;
     margin-top: 5px;
     max-width: 300px;
-    border: 1px solid black;
+    border: 1px solid black;    
+    position: inherit;
+
 }
