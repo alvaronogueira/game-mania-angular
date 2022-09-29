@@ -11,13 +11,13 @@ import { Index3Component } from './views/index3/index3.component';
 
 const routes: Routes = [
   {path:"header", component:HeaderComponent},
-  {path:"home", component: HomeComponent},
   {path:"carousel", component:CarouselComponent},
-  {path:"cards", component: CardsComponent},
-  {path:"footer", component: FooterComponent},
+  {path:"home", component: HomeComponent},
   {path:"index1", component: Index1Component},
   {path:"index2", component: Index2Component},
-  {path:"index2", component: Index3Component},
+  {path:"index3", component: Index3Component},
+  {path:"footer", component: FooterComponent},
+
 
 ];
 
