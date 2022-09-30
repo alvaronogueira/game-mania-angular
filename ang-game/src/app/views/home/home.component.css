@@ -14,6 +14,7 @@ ul{
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: auto; margin-right: auto;
+    margin-bottom: 0px;
 }
 
 .gamer{
@@ -97,6 +98,8 @@ ul{
     justify-content: space-between;
     margin-bottom: 30px;
 }
+
+
 .preco{
     background-color: #218EF2;
     width: 80px; height: 30px;
@@ -122,5 +125,9 @@ ul{
     .more{
         margin: auto;
     }
+    .bloco{
+        margin-bottom: 20px;
+    }
+    
     
 }
