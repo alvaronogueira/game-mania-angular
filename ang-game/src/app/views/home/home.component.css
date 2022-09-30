@@ -9,7 +9,11 @@ ul{
 }
 .container{
     display: flex;
+    width: auto;
     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 .gamer{
     text-align: center;
