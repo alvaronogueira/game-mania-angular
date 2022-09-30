@@ -13,7 +13,7 @@ ul{
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    margin-left: auto; margin-right: auto;
 }
 .gamer{
     text-align: center;
@@ -117,15 +117,20 @@ ul{
     height: 260px;
 }
 
-@media screen and (max-width:1200px) {
-    .header{
-        width: 100%;
-        height: 70px;
-    } 
-    
-}
+
 
 @media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        width: auto;
+        height: 20px;
+    } 
+    .footer{
+        display: flex;
+        width: auto;
+        height: 10px;
+    }
     .more{
-    margin: auto;}
+    margin: auto;
+    }
 }
