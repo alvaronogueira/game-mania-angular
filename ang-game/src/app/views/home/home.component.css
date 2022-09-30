@@ -19,15 +19,22 @@ ul{
 
 .gamer{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
     font-size: xx-large;
 }
-.info, .promo{
+.info{
     text-align: center;
     font-size: 20pt;
     margin-top: 80px;
+    margin-bottom: 20px;
 }
-
+.promo{
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
  
 
 .link1{
@@ -73,15 +80,46 @@ ul{
     text-align: center;
 }
  
- 
- .promo-game{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 12pt;
     font-family: sans-serif;
-    margin-bottom: 10px;
 }
- 
+
+h1{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+    background-color: #1D0606;
+}
+  
+.card{
+    position: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;   
+    margin-bottom: 50px; 
+    position: inherit;
+}
+.gd, .cl{
+    width: 220px;
+    height: 260px;
+}
+
+  
+.example-card {
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 300px;
+    border: 1px solid black;    
+    position: inherit;
+}
+
 .price{
     color: #218EF2;
     font-family: sans-serif;
@@ -93,11 +131,7 @@ ul{
 .price1{
     margin-top: 12px;
 }
-.cont-promo{
-    width: 95%;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
+
 
 
 .preco{
