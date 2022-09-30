@@ -124,3 +124,8 @@ ul{
     } 
     
 }
+
+@media screen and (max-width: 768px){
+    .more{
+    margin: auto;}
+}
