@@ -24,7 +24,7 @@ h1{
 
 
  /* Column Gap */
-  .card > *:not(:last-child) {
+  .card {
     margin-right: 5%;
   }
 
