@@ -1,5 +1,5 @@
 ngb-carousel{
-    max-width: 90%;
+    max-width: 95%;
     margin: 30px auto;
 }
 .carousel{
@@ -48,10 +48,8 @@ ngb-carousel a{
 
 
 @media screen and (max-width:768px) {
-    p{
+    p, h3{
         display: none;
     }
-    .carousel-caption h3{
-        margin: 50px;
-    }
+    
 }
