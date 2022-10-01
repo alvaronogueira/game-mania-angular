@@ -35,7 +35,9 @@ p{
 .footer .list{
     padding-left: 10px;
 }
-
+.barra{
+    display: none;
+}
 
 
 
@@ -122,3 +124,49 @@ p{
     height: 35px;
 }
 
+
+
+@media screen and (max-width:768px) {
+    li, p{
+        display: none;
+    }
+    .footer .line{
+        display: none;
+    }
+    .amex1{
+        height: 30px;
+        width: 30px;
+        vertical-align: middle;
+        padding-left: 5px;
+    }
+    .master1{
+        height: 35px;
+        width: 30px;
+        vertical-align: middle; 
+        padding-left: 5px;
+    }
+    .paypal1{
+        height: 20px;
+        width: 35px;
+        vertical-align: middle;
+        padding-left: 5px;
+    }
+    .pix1{
+        height: 20px;
+        width: 40px;
+        vertical-align: middle;
+    }
+    .visa1{
+        height: 20px;
+        width: 40px;
+        vertical-align: middle;
+        padding-left: 5px;
+    }
+    .icon .cards{
+        margin: -20px;
+        padding: 0;
+        width: 150px; height: -5px;
+    }
+        
+       
+}
