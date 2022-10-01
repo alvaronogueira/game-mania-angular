@@ -42,3 +42,16 @@ ngb-carousel a{
 .carousel-indicators{
     z-index: 20;
 }
+
+
+
+
+
+@media screen and (max-width:768px) {
+    p{
+        display: none;
+    }
+    .carousel-caption h3{
+        margin: 50px;
+    }
+}
