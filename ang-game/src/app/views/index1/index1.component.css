@@ -1,42 +1,23 @@
 body, ul, li, p{
     list-style: none;
+    text-decoration: none;
     font-size: 15pt;
     font-family: sans-serif;
-}
-.h11{
-    text-align: center;
-    margin-top: 40px;
-    font-size: xx-large;
-}
-.link{
-    text-decoration: none;
-    font-style: oblique;
-    color: black;
-}
-.link2{
-    text-align: center;
-    text-decoration: none;
-    font-style: oblique;
-    color: black;
+    margin-bottom: 20px;
 }
 
 
-/*FLEXBOX*/
-.flexbox{
-    max-width: 100%;
-    margin-bottom: 100px;
-    position:inherit;
-}
-.img1{
+mat-grid-tile .img1{
     width: 500px;
     height: 400px;
     border-bottom:10px solid chartreuse;
 }
-.img2{
+mat-grid-tile .img2{
     width: 490px;
     height: 399px;
     border-bottom:10px solid chartreuse;
 }
+
 
 @media screen and (max-width:768px) {
     .img{

@@ -1,17 +1,12 @@
 /*Local Teste*/
-mat-grid-list{
-    grid-gap: 10px;
-}
 body, ul, li, p{
     list-style: none;
+    text-decoration: none;
     font-size: 15pt;
     font-family: sans-serif;
-}
-
-
-mat-grid-tile {
     margin-bottom: 20px;
 }
+
 
 mat-grid-tile .img1{
     width: 500px;
