@@ -4,13 +4,25 @@ body, ul, li, p{
     font-size: 15pt;
     font-family: sans-serif;
     margin-bottom: 20px;
+    position: inherit;
+}
+.h11{
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
 }
 
+mat-grid-list{
+    position: inherit;
+}
 
 mat-grid-tile .img1{
     width: 500px;
     height: 400px;
     border-bottom:10px solid chartreuse;
+}
+.img1{
+    position: inherit;
 }
 mat-grid-tile .img2{
     width: 490px;
