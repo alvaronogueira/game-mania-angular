@@ -4,6 +4,8 @@ body, ul, li, p{
     list-style: none;
     font-size: 12pt;
     font-family: sans-serif;
+    text-decoration: none;
+    position: inherit;
 }
 h1{
     margin-left: 5%;
