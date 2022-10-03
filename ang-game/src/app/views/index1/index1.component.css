@@ -11,18 +11,12 @@ body, ul, li, p{
     margin-top: 40px;
     font-size: xx-large;
 }
-.grid{
+mat-grid-list{
     position: inherit;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: 5%;
-    margin-right: 5%;    
+} .grid{
+    position: inherit;
 }
 
-mat-grid-tile{
-    position: inherit;
-}
 mat-grid-tile .img1{
     width: 500px;
     height: 400px;
