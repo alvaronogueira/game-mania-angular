@@ -20,6 +20,9 @@ body, ul, li, p{
     margin-right: 5%;    
 }
 
+mat-grid-tile{
+    position: inherit;
+}
 mat-grid-tile .img1{
     width: 500px;
     height: 400px;
@@ -30,6 +33,7 @@ mat-grid-tile .img1{
 mat-grid-tile .img2{
     width: 490px;
     height: 399px;
+    position: inherit;
     border-bottom:10px solid chartreuse;
 }
 
