@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { NovidadesService } from 'src/app/services/novidades.service';
+import { Novidade } from 'src/app/models/novidade';
 
 @Component({
   selector: 'app-index2',
@@ -7,9 +10,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Index2Component implements OnInit {
 
-  constructor() { }
+  constructor(private novidadeService: NovidadesService) { }
+  listaNovidades = [] as Novidade[]
+
 
   ngOnInit(): void {
+    this.carregarNovidades()
   }
+
+  carregarNovidades(){
+    this.novidadeService.getNovidades().subscribe((novidadesRecebidas: Novidade[]) => {
+      this.listaNovidades = novidadesRecebidas;
+      console.log(this.listaNovidades);
+    }
+    
+    )
+  }
+
 
 }

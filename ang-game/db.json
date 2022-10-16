@@ -1,37 +1,37 @@
 {
   "novidades": [
     {
-      "image": "../assets/img/game.png",
+      "imagem": "../assets/img/game.png",
       "titulo": "test",
       "texto": "testing json",
       "id": 1
     },
     {
-      "image": "assets/img/neymar.png",
+      "imagem": "assets/img/neymar.png",
       "titulo": "test2",
       "texto": "testing json",
       "id": 2
     },
     {
-      "image": "assets/img/super-mario.png",
+      "imagem": "assets/img/super-mario.png",
       "titulo": "test3",
       "texto": "testing json",
       "id": 3
     },
     {
-      "image": "assets/img/gt-san-andreas.png",
+      "imagem": "assets/img/gt-san-andreas.png",
       "titulo": "test4",
       "texto": "testing json",
       "id": 4
     },
     {
-      "image": "assets/img/cuphead.png",
+      "imagem": "assets/img/cuphead.png",
       "titulo": "test5",
       "texto": "testing json",
       "id": 5
     },
     {
-      "image": "assets/img/bitcoin.png",
+      "imagem": "assets/img/bitcoin.png",
       "titulo": "test6",
       "texto": "testing json",
       "id": 6
