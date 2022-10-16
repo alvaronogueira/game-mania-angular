@@ -1,38 +1,38 @@
 {
   "novidades": [
     {
-      "imagem": "../assets/img/game.png",
-      "titulo": "test",
+      "imagem": "../assets/img/game(1).jpg",
+      "titulo": "CELULARES MAIS POTENTES",
       "texto": "testing json",
       "id": 1
     },
     {
-      "imagem": "assets/img/neymar.png",
-      "titulo": "test2",
+      "imagem": "assets/img/game-console(1).jpg",
+      "titulo": "ARTES E JOGOS",
       "texto": "testing json",
       "id": 2
     },
     {
-      "imagem": "assets/img/super-mario.png",
-      "titulo": "test3",
+      "imagem": "assets/img/minecraft(1).jpg",
+      "titulo": "CONSTRUA CASTELOS",
       "texto": "testing json",
       "id": 3
     },
     {
-      "imagem": "assets/img/gt-san-andreas.png",
-      "titulo": "test4",
+      "imagem": "assets/img/cars(1).jpg",
+      "titulo": "VELOCIDADE TOTAL",
       "texto": "testing json",
       "id": 4
     },
     {
-      "imagem": "assets/img/cuphead.png",
-      "titulo": "test5",
+      "imagem": "assets/img/las-vegas(1).jpg",
+      "titulo": "FEIRA GAMER",
       "texto": "testing json",
       "id": 5
     },
     {
-      "imagem": "assets/img/bitcoin.png",
-      "titulo": "test6",
+      "imagem": "assets/img/virtual eyewear(1).jpg",
+      "titulo": "REALIDADE NADA-VIRTUAL",
       "texto": "testing json",
       "id": 6
     }

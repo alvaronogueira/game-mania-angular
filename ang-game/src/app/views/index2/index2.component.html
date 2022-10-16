@@ -1,3 +1,4 @@
+<!-- 
 <h1>N O V I D A D E S</h1>
 
 <div class="card">
@@ -88,3 +89,13 @@
         </mat-card-actions>
     </mat-card>
 </div>
+-->
+
+
+<div id="espaco-novidades" class="content-news">
+    <div *ngFor="let novidade of listaNovidades" class="card">
+        <img [src]=novidade.imagem alt="Foto Game">
+        <h3>{{novidade.titulo}}</h3>
+        <p>{{novidade.texto}}</p>
+</div>
+        
