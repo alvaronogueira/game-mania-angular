@@ -1,10 +1,10 @@
 {
   "novidades": [
     {
-      "imagem": "../assets/img/game(1).jpg",
+      "id": 1,
+      "imagem": "",
       "titulo": "CELULARES MAIS POTENTES",
-      "texto": "testing json",
-      "id": 1
+      "texto": "testing json"
     },
     {
       "imagem": "assets/img/game-console(1).jpg",
@@ -13,7 +13,7 @@
       "id": 2
     },
     {
-      "imagem": "assets/img/minecraft(1).jpg",
+      "imagem": "assets/img/minecraft.png",
       "titulo": "CONSTRUA CASTELOS",
       "texto": "testing json",
       "id": 3
