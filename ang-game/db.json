@@ -1,40 +1,46 @@
 {
-  "novidades": [
+  "noticias": [
     {
       "id": 1,
       "imagem": "",
-      "titulo": "CELULARES MAIS POTENTES",
-      "texto": "testing json"
+      "titulo": "Testing",
+      "descricao": "Testing json"
     },
     {
-      "imagem": "assets/img/game-console(1).jpg",
-      "titulo": "ARTES E JOGOS",
-      "texto": "testing json",
-      "id": 2
+      "id": 2,
+      "imagem": "",
+      "titulo": "Testing",
+      "descricao": "Testing jso2n"
     },
     {
-      "imagem": "assets/img/minecraft.png",
-      "titulo": "CONSTRUA CASTELOS",
-      "texto": "testing json",
-      "id": 3
+      "id": 3,
+      "imagem": "",
+      "titulo": "Testing",
+      "descricao": "Testing json3"
     },
     {
-      "imagem": "assets/img/cars(1).jpg",
-      "titulo": "VELOCIDADE TOTAL",
-      "texto": "testing json",
-      "id": 4
+      "id": 4,
+      "imagem": "",
+      "titulo": "Testing",
+      "descricao": "Testing json4"
     },
     {
-      "imagem": "assets/img/las-vegas(1).jpg",
-      "titulo": "FEIRA GAMER",
-      "texto": "testing json",
-      "id": 5
+      "id": 5,
+      "imagem": "",
+      "titulo": "Testing",
+      "descricao": "Testing json5"
     },
     {
-      "imagem": "assets/img/virtual eyewear(1).jpg",
-      "titulo": "REALIDADE NADA-VIRTUAL",
-      "texto": "testing json",
-      "id": 6
+      "id": 6,
+      "imagem": "",
+      "titulo": "Testing",
+      "descricao": "Testing json6"
+    },
+    {
+      "imagem": "",
+      "titulo": "Testing Json7",
+      "descricao": "tudo nosso",
+      "id": 7
     }
   ]
 }
