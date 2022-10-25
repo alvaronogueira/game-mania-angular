@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Noticia } from 'src/app/models/noticia';
+import { NoticiasService } from 'src/app/services/noticias.service';
 
 
 @Component({
@@ -9,11 +11,21 @@ import { Component, OnInit } from '@angular/core';
 export class Index2Component implements OnInit {
 listaNovidades: any;
 
-  constructor() { }
+  constructor(private noticiaService: NoticiasService) { }
+
+  listaNoticias = [] as Noticia[]
 
 
-  ngOnInit(): void {  }
+  ngOnInit(): void {  
+    this.carregarNoticias()
+  }
 
-
+  carregarNoticias(){
+    this.noticiaService.getNoticias.subscribe( (noticiasRecebidas: Noticia[]) => {
+      this.listaNoticias = noticiasRecebidas;
+      console.log(this.listaNoticias);
+    }
+    )
+  }
 
 }
