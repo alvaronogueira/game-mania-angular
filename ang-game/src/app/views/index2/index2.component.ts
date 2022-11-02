@@ -10,6 +10,7 @@ import { NoticiasService } from 'src/app/services/noticias.service';
 })
 export class Index2Component implements OnInit {
 listaNovidades: any;
+noticias: any;
 
   constructor(private noticiaService: NoticiasService) { }
 
