@@ -21,7 +21,7 @@ listaNovidades: any;
   }
 
   carregarNoticias(){
-    this.noticiaService.getNoticias.subscribe( (noticiasRecebidas: Noticia[]) => {
+    this.noticiaService.getNoticias().subscribe( (noticiasRecebidas: Noticia[]) => {
       this.listaNoticias = noticiasRecebidas;
       console.log(this.listaNoticias);
     }
