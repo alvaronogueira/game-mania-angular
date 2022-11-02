@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "ngcc": "ngcc --properties es2015 browser main module --async false --first-only",
+    "postinstall": "npm run ngcc"
   },
   "private": true,
   "dependencies": {
