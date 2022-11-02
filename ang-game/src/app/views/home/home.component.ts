@@ -1,7 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Noticia } from 'src/app/models/noticia';
-import { NoticiasService } from 'src/app/services/noticias.service';
 
 
 @Component({
@@ -11,22 +9,12 @@ import { NoticiasService } from 'src/app/services/noticias.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private noticiaService: NoticiasService) { }
-
-  listaNoticias = [] as Noticia[]
+  constructor() { }
 
 
-  ngOnInit(): void { 
-    this.carregarNoticias()
-  }
+  ngOnInit(): void { }
 
-  carregarNoticias(){
-    this.noticiaService.getNoticias().subscribe( (noticiasRecebidas: Noticia[]) => {
-      this.listaNoticias = noticiasRecebidas;
-      console.log(this.listaNoticias);
-    }
-    )
-  }
+
 
 
 }
