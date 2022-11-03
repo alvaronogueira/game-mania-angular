@@ -1,10 +1,10 @@
 <!--SEÇÃO GAMER-->
 
 <div id="espaco-noticias" class="content-news">
-    <div ngForm="let noticia of listaNoticias" class="cardnews">
-        <img src="" alt="Foto da novidade">
-        <h3>titulo</h3>
-        <p>descricao</p>
+    <div *ngFor="let noticia of listaNoticias">
+        <img [src]=noticia.imagem alt="foto novidades">
+        <h3>{{noticia.titulo}}</h3>
+        <p>{{noticia.descricao}}</p>
     </div>
 </div>
 
