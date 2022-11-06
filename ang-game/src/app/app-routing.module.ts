@@ -8,6 +8,7 @@ import { HomeComponent } from './views/home/home.component';
 import { Index1Component } from './views/index1/index1.component';
 import { Index2Component } from './views/index2/index2.component';
 import { Index3Component } from './views/index3/index3.component';
+import { LoginComponent } from './views/login/login.component';
 import { TempCarouselComponent } from './views/temp-carousel/temp-carousel.component';
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path:"index2", component: Index2Component},
   {path:"index3", component: Index3Component},
   {path:"footer", component: FooterComponent},
-  {path:"carousel2", component: TempCarouselComponent}
+  {path:"carousel2", component: TempCarouselComponent},
+  {path:"login", component: LoginComponent},
 
 
 ];
