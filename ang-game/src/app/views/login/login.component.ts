@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { using } from 'rxjs';
 import { LoginService } from 'src/app/services/login.service';
 
 @Component({
@@ -13,7 +14,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  loginModel = new user();
+  loginModel = new User;
 
   onSubmit(){
     console.log(this.loginModel)
