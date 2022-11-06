@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  loginModel = new User();
+  loginModel = new user();
 
   onSubmit(){
     console.log(this.loginModel)
