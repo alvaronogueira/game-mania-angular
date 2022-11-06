@@ -23,7 +23,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatGridListModule} from '@angular/material/grid-list';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './views/login/login.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { HttpClientModule } from '@angular/common/http'
     Index2Component,
     Index3Component,
     CardsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
