@@ -10,8 +10,6 @@ import { User } from 'src/app/models/user';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-onSubmit: any;
-userModel: any;
 
   constructor(private loginService: LoginService, private router: Router) { }
 
