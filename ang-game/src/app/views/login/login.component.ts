@@ -1,4 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { LoginService } from 'src/app/services/login.service';
+import { User } from 'src/app/models/user';
 
 @Component({
   selector: 'app-login',
@@ -9,9 +13,20 @@ export class LoginComponent implements OnInit {
 onSubmit: any;
 userModel: any;
 
-  constructor() { }
+  constructor(private loginService: LoginService, private router: Router) { }
 
   ngOnInit(): void {
   }
+  loginModel = new User();
+
+  onSubmit(){
+    console.log(this.loginModel)
+
+    this.loginService.login(this.loginModel).subscribe((response) => {
+      console.log(response)
+    }
+    )
+  }
+
 
 }
